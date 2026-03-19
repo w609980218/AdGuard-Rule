@@ -2,8 +2,8 @@
 ! Title: AdRules AdBlock List
 ! Expires: 12h (update frequency)
 ! Description: Merge from EasyList,EasyListChina etc. and Add Some Rules.
-! ! Version: 2026-03-18 21:25:50(GMT+8) 
-! Total count: 223799
+! ! Version: 2026-03-19 10:45:43(GMT+8) 
+! Total count: 223808
  
 ###ADtip
 ###Ad_windows
@@ -10551,7 +10551,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||adobe.com.ssl.d1.sc.omtrdc.net^$xmlhttprequest,domain=www.adobe.com
 @@||adobe.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
-@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
+@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com|westjet.com
 @@||adobedc.demdex.net^$xmlhttprequest,domain=sc.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
@@ -16263,6 +16263,7 @@ baidu.com##div.ad-wrapper
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
 baidu.com##div[data-ad]
+baidu.com##div[data-key^="ad__"]
 baidu.com##div[id^="toast"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result) { position: absolute!important; left: -4000px!important; }
@@ -16511,6 +16512,7 @@ bilibili.com##.open-app-bar
 bilibili.com##.open-btn
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
+bilibili.com##.recommended-swipe .carousel-footer-title > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.recommended-swipe-body-normal div.vui_carousel__slide:has(> div.carousel-area > div.carousel-area-img > a > img[src$="/eva.png"])
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
@@ -83591,7 +83593,7 @@ jianhuadaily.com##.alignnone[width="800"]
 jiankang.com##.all_eye
 jiankang.com##.three_hot
 jianshen114.com##.index_temp
-jianshen8.com,manwa.me##.index-banner
+jianshen8.com##.index-banner
 jianshu.com###index-aside-download-qrbox
 jianshu.com###note-fixed-ad-container
 jianshu.com###recommended-notes
@@ -86689,7 +86691,6 @@ manhuapica.com##a[href^="/ad/"]
 manhuaren.com###lb-win
 manmanbuy.com##.app-activity-download
 manmanw.net##.tlads
-manwa.me##.ad-area > a
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
@@ -104133,6 +104134,7 @@ zzzyk.com###Tinfo
 ||acg.youku.com/webfile/*.jpg
 ||acgbase.com^$third-party
 ||acgbenzi.com^$image
+||acgbryg.com^
 ||acggd.com/4d22b/
 ||acglover.*/wp-content/uploads/*-520-245.
 ||acglover.*/wp-content/uploads/*-720
@@ -129146,6 +129148,7 @@ zzzyk.com###Tinfo
 ||dvehu.percivalclo.com^
 ||dvenkbn.icu^
 ||dvhcob.jtrip.co.jp^
+||dvjxk947e.com^
 ||dvlmn.swolverine.com^
 ||dvmhm.gratsi.com^
 ||dvmira.keskisenkello.fi^
@@ -131228,6 +131231,7 @@ zzzyk.com###Tinfo
 ||emplicity.actonservice.com^
 ||emptyescort.com^
 ||emrdnt.sumaity.com^
+||emrld.cc^
 ||ems-a8net-tracking.easy-myshop.jp^
 ||ems.golpobox.com^
 ||ems.youku.com/event?
@@ -132794,6 +132798,7 @@ zzzyk.com###Tinfo
 ||expedia.com^*/evaluateexperimentsandlog
 ||expedia.com^*/logexperiments
 ||expedia.nl/trvl-px/
+||expediency36.com^
 ||experianmarketingservices.digital^$third-party
 ||experianmatch.info^
 ||experianmatch.info^$third-party
@@ -142138,6 +142143,7 @@ zzzyk.com###Tinfo
 ||gvlme.emango.si^
 ||gvm.com.tw/tracker/view
 ||gvmomuqjv1.swyftx.com^
+||gvodieta.com^
 ||gvsivx.multinet.com.tr^
 ||gvtki.hairfillup.com^
 ||gvvbs.springrose.co^
@@ -150563,6 +150569,7 @@ zzzyk.com###Tinfo
 ||kqdqrj.traktorpool.de^
 ||kqefj.clearstem.com^
 ||kqfkauld.trulyengaging.com^
+||kqg8jh8rk.com^
 ||kqgmea.icu^
 ||kqgsg.katoura.com^
 ||kqgx3eyz7.com^
@@ -159173,7 +159180,6 @@ zzzyk.com###Tinfo
 ||manua.ls/g/collect?
 ||manua.ls/gtag
 ||manufacturing.autodeskcommunications.com^
-||manwa.me/static/custom/files/300X250.$image,redirect=1x1-transparent.gif,~third-party
 ||manychat.com/analytics/event
 ||manychat.com/js/visitor.js
 ||manychat.com/pixel/logEvent
@@ -165967,6 +165973,7 @@ zzzyk.com###Tinfo
 ||mwf7.montecarlowellness.com^
 ||mwgehrudb.com^
 ||mwgooq.icu^
+||mwka.cc/static/gg.
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mws.verisk.com^
@@ -175163,6 +175170,7 @@ zzzyk.com###Tinfo
 ||radar.manzlek.com^
 ||radar.rodrigopradomentor.com.br^
 ||radarstats.com^$third-party
+||radexh.icu^
 ||radexports.com^
 ||radi.l27.cz^
 ||radi.zachrannasit.cz^
@@ -218898,6 +218906,7 @@ zzzyk.com###Tinfo
 ||wizoevljj.com^
 ||wiztube.xyz/cdn-cgi/trace
 ||wj.jiancai365.cn^
+||wj8i1rlp2b.com^
 ||wj9uod3838.com^
 ||wjmyfp.billetdavion.be^
 ||wjssvg.descentekorea.co.kr^
